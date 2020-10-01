@@ -10,9 +10,20 @@ body {
 body {
   font-family: "Montserrat";
   display: grid;
-  place-content: center;
-  background: #1c1c1c;
+  align-items: center;
+  background: linear-gradient(
+    270deg,
+    rgba(39, 39, 39, 1) 43%,
+    rgba(28, 28, 28, 1) 43%,
+    rgba(28, 28, 28, 1) 100%
+  );
   color: white;
+}
+
+.container {
+  width: 40%;
+  margin-left: 4em;
+  height: 50vh;
 }
 
 h1 {
